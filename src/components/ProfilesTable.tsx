@@ -91,7 +91,7 @@ const ProfilesTable: React.FC<ProfilesTableProps> = ({ accounts }) => {
       <div className='info'>
         <p>Account ID: <span>{accountId}</span></p>
         <Button variant="outline-light">
-          <Link to="/" className='link'>Back to Accounts</Link>
+          <Link to="/agencyamazon_test/" className='link'>Back to Accounts</Link>
         </Button>
       </div>
       <div className='table-header'>
