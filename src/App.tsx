@@ -17,9 +17,9 @@ const App: React.FC = () => {
         <h1 className='App-title'>AgencyAmazon Tables</h1>
       </div>
       <Routes>
-        <Route path="/" element={<AccountsTable accounts={accountsData} />} />
-        <Route path="/profiles/:accountId" element={<ProfilesTable accounts={accountsData} />} />
-        <Route path="/profiles/:accountId/campaigns/:profileId" element={<CampaignsTable accounts={accountsData} />} />
+        <Route path="/agencyamazon_test/" element={<AccountsTable accounts={accountsData} />} />
+        <Route path="/agencyamazon_test/profiles/:accountId" element={<ProfilesTable accounts={accountsData} />} />
+        <Route path="/agencyamazon_test/profiles/:accountId/campaigns/:profileId" element={<CampaignsTable accounts={accountsData} />} />
       </Routes>
     </Router>
   );
